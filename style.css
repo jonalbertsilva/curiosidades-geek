@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Patrick+Hand&family=Science+Gothic:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Patrick+Hand&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+:root {
+    --cor0 : #F527D6;
+    --cor1 : #27F5E7;
+    --cor2 : #F5CF27;
+    --cor3 : #756E4D;
+    --cor4 : #4D7573;
+
+    --font-titulo : 'oswald';
+    --font-texto : 'roboto'
+}
+
+body{
+    background-color: var(--cor4);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
+    color: white;
+    text-align: center;
+    height: 170px;
+    font-weight: bolder;
+    font-family: var(--font-titulo);
+    border-radius: 8px;     
+}
+
+header > nav {
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+header > nav > a {
+    margin: 10px;
+    text-decoration: none;
+    color:white;
+    font-family: var(--font-texto);    
+}
+
+header > h1 {
+    font-size:3em;
+    padding-top: 20px;
+}
+
+header> p {
+    margin : -5px 0px 8px 0px
+}
+main {
+    background-color: var(--cor4);
+    padding: 20px;
+}
+
+article {
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 1000px;    
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+article> h1 {
+    font-family: var(--font-texto);
+    padding-bottom: 20px;
+    line-height: 1.2em;
+}
+        
+img {
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+article > h2 {
+    margin: 20px;
+    font-family: var(--font-texto);
+}
+
+h3 {
+    margin: 20px;
+    font-family: var(--font-texto);
+}
+
+h4 {
+    margin: 20px;
+    font-family: var(--font-texto);
+}
+
+article > p {
+    font-family: var(--font-texto);
+    margin-left: 20px;
+    text-indent: 5px;
+    line-height: 1.5;
+    
+}
+article > ul, ol {
+    font-family: var(--font-texto);
+    margin-bottom: 30px;
+ }
+
+ article > section {
+    background-color: var(--cor4);
+ }
+
+section > iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
